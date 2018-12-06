@@ -20,6 +20,8 @@ OTHER_FILES += $$PWD/nimf.json
 
 CONFIG += link_pkgconfig no_keywords
 
+PKGCONFIG += glib-2.0
+
 PLUGIN_TYPE = platforminputcontexts
 PLUGIN_EXTENDS = -
 PLUGIN_CLASS_NAME = NimfInputContext
